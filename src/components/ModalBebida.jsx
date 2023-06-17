@@ -31,7 +31,7 @@ export default function ModalBebida () {
 
     return (
         <>
-            {loading
+            {!loading
                 ? <Spinner />
                 : (
                     <Modal show={modal} onHide={handleModalClick}>
